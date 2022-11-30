@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+  color: #ffff;
+}
+.d7pp {
+  width: 300px;
+  height: 300px;
+  margin: 80px;
+}
+.div4 {
+  margin-top: 10px;
+  height: 770px;
+  background: url("bg2.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.psub4 {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 30px;
+}
+.h1-4 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.btn2 {
+  background-color: red;
+  color: white;
+  border-radius: 45px;
+  border: none;
+  width: 20%;
+  margin-left: 40%;
+  padding: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) /*mobile and small*/ {
+  .main {
+    background: url("bg1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 315px;
+    position: relative;
+  }
+  .centered {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  .mainh2 {
+    font-size: 20px;
+  }
+  .btn1 {
+    background-color: #ffff;
+    color: red;
+    border-radius: 24px;
+    border: none;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /*4*/
+  .d7pp {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  .div4 {
+    height: 230px;
+    background: url("bg2.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .psub4 {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 15px;
+    margin: 0;
+  }
+  .h1-4 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+  }
+  .btn2 {
+    background-color: red;
+    color: white;
+    border-radius: 24px;
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .main {
+    background: url("bg1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
+  .centered {
+    position: absolute;
+    width: 400px;
+    top: 200px;
+    left: 100px;
+    padding: 10px;
+  }
+  .mainh2 {
+    font-size: 20px;
+  }
+  .btn1 {
+    background-color: #ffff;
+    color: red;
+    border-radius: 24px;
+    border: none;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .d7pp {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  .div4 {
+    height: 428px;
+    background: url("bg2.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .psub4 {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 18px;
+  }
+  .h1-4 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+  }
+
+  .btn2 {
+    background-color: red;
+    color: white;
+    border-radius: 35px;
+    border: none;
+    width: 40%;
+    margin-left: 30%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1025px) {
+  .main {
+    background: url("bg1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 1080px;
+    position: relative;
+  }
+  .centered {
+    position: absolute;
+    width: 600px;
+    top: 300px;
+    left: 100px;
+    padding: 10px;
+  }
+  .mainh2 {
+    font-size: 30px;
+  }
+}
+.btn1 {
+  background-color: #ffff;
+  color: red;
+  border-radius: 24px;
+  border: none;
+  width: 200px;
+  padding: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*4*/
+
+/*Medium devices (landscape tablets, 768px and up)*/
+
+/*}*/
